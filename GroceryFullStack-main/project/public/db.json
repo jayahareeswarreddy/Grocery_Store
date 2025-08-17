@@ -1,0 +1,299 @@
+{
+  "products": [
+    // Fruits
+    {
+      "id": 1,
+      "name": "Fresh Apples",
+      "price": 199,
+      "category": "Fruits",
+      "image": "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 2,
+      "name": "Organic Bananas",
+      "price": 49,
+      "category": "Fruits",
+      "image": "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 3,
+      "name": "Sweet Oranges",
+      "price": 99,
+      "category": "Fruits",
+      "image": "https://images.unsplash.com/photo-1547514701-42782101795e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 4,
+      "name": "Fresh Grapes",
+      "price": 149,
+      "category": "Fruits",
+      "image": "https://images.unsplash.com/photo-1515779125870-5c3f5b0c8f1a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 5,
+      "name": "Ripe Mangoes",
+      "price": 299,
+      "category": "Fruits",
+      "image": "https://images.unsplash.com/photo-1553279753-4a5a8a5f5b5a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+
+    // Vegetables
+    {
+      "id": 6,
+      "name": "Fresh Tomatoes",
+      "price": 49,
+      "category": "Vegetables",
+      "image": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 7,
+      "name": "Organic Potatoes",
+      "price": 39,
+      "category": "Vegetables",
+      "image": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 8,
+      "name": "Fresh Carrots",
+      "price": 59,
+      "category": "Vegetables",
+      "image": "https://images.unsplash.com/photo-1447175008436-054170c2e979?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 9,
+      "name": "Green Beans",
+      "price": 69,
+      "category": "Vegetables",
+      "image": "https://images.unsplash.com/photo-1447175008436-054170c2e979?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 10,
+      "name": "Fresh Spinach",
+      "price": 79,
+      "category": "Vegetables",
+      "image": "https://images.unsplash.com/photo-1447175008436-054170c2e979?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+
+    // Dairy
+    {
+      "id": 11,
+      "name": "Fresh Milk",
+      "price": 45,
+      "category": "Dairy",
+      "image": "https://images.unsplash.com/photo-1550583724-b2692b85b150?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 12,
+      "name": "Butter",
+      "price": 99,
+      "category": "Dairy",
+      "image": "https://images.unsplash.com/photo-1550583724-b2692b85b150?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 13,
+      "name": "Cheese",
+      "price": 199,
+      "category": "Dairy",
+      "image": "https://images.unsplash.com/photo-1550583724-b2692b85b150?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 14,
+      "name": "Yogurt",
+      "price": 59,
+      "category": "Dairy",
+      "image": "https://images.unsplash.com/photo-1550583724-b2692b85b150?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 15,
+      "name": "Paneer",
+      "price": 149,
+      "category": "Dairy",
+      "image": "https://images.unsplash.com/photo-1550583724-b2692b85b150?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+
+    // Bakery
+    {
+      "id": 16,
+      "name": "Whole Wheat Bread",
+      "price": 35,
+      "category": "Bakery",
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 17,
+      "name": "Croissants",
+      "price": 45,
+      "category": "Bakery",
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 18,
+      "name": "Bagels",
+      "price": 55,
+      "category": "Bakery",
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 19,
+      "name": "Muffins",
+      "price": 65,
+      "category": "Bakery",
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 20,
+      "name": "Donuts",
+      "price": 75,
+      "category": "Bakery",
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+
+    // Snacks
+    {
+      "id": 21,
+      "name": "Potato Chips",
+      "price": 20,
+      "category": "Snacks",
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 22,
+      "name": "Popcorn",
+      "price": 25,
+      "category": "Snacks",
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 23,
+      "name": "Cookies",
+      "price": 30,
+      "category": "Snacks",
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 24,
+      "name": "Nuts Mix",
+      "price": 199,
+      "category": "Snacks",
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 25,
+      "name": "Chocolate Bars",
+      "price": 50,
+      "category": "Snacks",
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+
+    // Beverages
+    {
+      "id": 26,
+      "name": "Mineral Water",
+      "price": 20,
+      "category": "Beverages",
+      "image": "https://images.unsplash.com/photo-1544003484-3cd181d17917?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 27,
+      "name": "Orange Juice",
+      "price": 99,
+      "category": "Beverages",
+      "image": "https://images.unsplash.com/photo-1544003484-3cd181d17917?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 28,
+      "name": "Green Tea",
+      "price": 149,
+      "category": "Beverages",
+      "image": "https://images.unsplash.com/photo-1544003484-3cd181d17917?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 29,
+      "name": "Coffee",
+      "price": 299,
+      "category": "Beverages",
+      "image": "https://images.unsplash.com/photo-1544003484-3cd181d17917?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 30,
+      "name": "Soda",
+      "price": 35,
+      "category": "Beverages",
+      "image": "https://images.unsplash.com/photo-1544003484-3cd181d17917?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+
+    // Household
+    {
+      "id": 31,
+      "name": "Dish Soap",
+      "price": 45,
+      "category": "Household",
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 32,
+      "name": "Laundry Detergent",
+      "price": 199,
+      "category": "Household",
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 33,
+      "name": "Paper Towels",
+      "price": 99,
+      "category": "Household",
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 34,
+      "name": "Trash Bags",
+      "price": 149,
+      "category": "Household",
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 35,
+      "name": "Cleaning Spray",
+      "price": 79,
+      "category": "Household",
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+
+    // Personal Care
+    {
+      "id": 36,
+      "name": "Toothpaste",
+      "price": 99,
+      "category": "Personal Care",
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 37,
+      "name": "Shampoo",
+      "price": 149,
+      "category": "Personal Care",
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 38,
+      "name": "Body Wash",
+      "price": 199,
+      "category": "Personal Care",
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 39,
+      "name": "Face Cream",
+      "price": 299,
+      "category": "Personal Care",
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 40,
+      "name": "Deodorant",
+      "price": 149,
+      "category": "Personal Care",
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    }
+  ]
+} 
